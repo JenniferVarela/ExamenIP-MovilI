@@ -126,6 +126,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnContactos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),ActivityListarContacto.class);
+                startActivity(intent);
+
+            }
+        });
+
 
     }
 
